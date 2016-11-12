@@ -79,6 +79,4 @@ RUN apt-get update \
 &&  apt-get install -y rsync \
 &&  rm -rf /var/lib/apt/lists/*
 
-VOLUME /var/www/html
-
 CMD /usr/sbin/sshd -D
